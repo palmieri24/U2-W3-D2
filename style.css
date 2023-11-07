@@ -2,14 +2,24 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(131, 118, 102);
+}
+
 form {
   margin-top: 5rem;
 }
 
 label {
-  background-color: antiquewhite;
+  background-color: rgba(250, 235, 215, 0.496);
   color: rgb(107, 77, 41);
 }
+
+input {
+  background-color: beige;
+  border: solid 0.5px brown;
+}
+
 #saveButton {
   background-color: #00bc08;
   border-radius: 10px;

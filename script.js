@@ -48,3 +48,14 @@ const remResetButton = () => {
 const handleInput = (event) => {
   localStorage.setItem("searchQuery", event.target.value);
 };
+
+//ESERCIZIO N°2:
+let seconds = sessionStorage.getItem("timeCounter") || 0;
+
+function updateCounter() {
+  seconds++;
+  sessionStorage.setItem("timeCounter", seconds);
+  document.getElementById("timeCounter").textContent = seconds;
+}
+
+setInterval(updateCounter, 1000);
