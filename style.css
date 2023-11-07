@@ -37,3 +37,14 @@ input {
 #resetButton:hover {
   background-color: rgba(255, 228, 196, 0.636);
 }
+
+h3 {
+  margin-top: 5rem;
+  font-size: 14px;
+  color: blanchedalmond;
+}
+
+p {
+  color: blanchedalmond;
+  font-size: 12px;
+}
