@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  margin-top: 5rem;
+}
+
+label {
+  background-color: antiquewhite;
+  color: rgb(107, 77, 41);
+}
+#saveButton {
+  background-color: #00bc08;
+  border-radius: 10px;
+  border: none;
+}
+#resetButton {
+  background-color: palegoldenrod;
+  border-radius: 10px;
+  border: none;
+}
+
+#saveButton:hover {
+  background-color: #2db13193;
+}
+#resetButton:hover {
+  background-color: rgba(255, 228, 196, 0.636);
+}
